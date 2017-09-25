@@ -130,6 +130,7 @@ public class AboutLoops {
         assertEquals(count, 2);
     }
 
+    /*
     @Koan
     public void forLoopContinueLabel() {
         int count = 0;
@@ -147,7 +148,9 @@ public class AboutLoops {
         // What gets executed? Where does the program flow continue?
         assertEquals(count, 1);
     }
+    */
 
+    /*
     @Koan
     public void forLoopBreakLabel() {
         int count = 0;
@@ -165,4 +168,5 @@ public class AboutLoops {
         // What gets executed? Where does the program flow continue?
         assertEquals(count, __);
     }
+    */
 }
