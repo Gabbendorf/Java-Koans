@@ -99,15 +99,17 @@ public class AboutExceptions {
         throw new RuntimeException();
     }
 
-   /* @Koan
+    @Koan
     public String catchUncheckedExceptions() {
         // What do you need to do to catch the unchecked exception?
         try {
             doUncheckedStuff();
-        } catch (IOException e) {
-            return "hello";
+            return "It's ok";
+
+        } catch (RuntimeException ex) {
+            return "This is an exception";
         }
-    }*/
+    }
 
     @SuppressWarnings("serial")
     static class ParentException extends Exception {
